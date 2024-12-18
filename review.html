@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Hub</title>
+    <link rel="stylesheet" href="review.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+   
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="review.html">REVIEW</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-header">
+            <h1>Reviews of popular books</h1>
+            <p>
+                Your Trusted Guide to the World of Literature: Honest Reviews, Thoughtful Recommendations, and In-Depth Analysis
+            </p>
+            <a href="" class="harsh-btn">To know more visit to our website</a>
+        </div>
+    </section>
+<section class="lbr">
+    <main class="container">
+
+        <section id="reviews">
+            <h2>Latest Book Reviews</h2>
+            <div class="review">
+                <img src="images/ttt.jpg" alt="Book Title 1">
+                <h3>Book Title 1</h3>
+                <p><strong>Author:</strong> Author Name 1</p>
+                <p><strong>Rating:</strong> ★★★★☆</p>
+                <p>This is a brief description of Book Title 1. It covers the main themes and my thoughts on the book. The characters are well-developed, and the plot is engaging, making it a must-read for anyone who enjoys this genre.</p>
+                <a href="#" class="hv-btn">Read More</a>
+            </div>
+            <div class="review">
+                <img src="images/cl.jpg" alt="Book Title 2">
+                <h3>Book Title 2</h3>
+                <p><strong>Author:</strong> Author Name 2</p>
+                <p><strong>Rating:</strong> ★★★★★</p>
+                <p>This is a brief description of Book Title 2. The narrative is captivating, and the author's writing style is beautiful. This book will leave you thinking long after you've turned the last page.</p>
+                <a href="#" class="hv-btn">Read More</a>
+            </div>
+            <div class="review">
+                <img src="images/ys.jpg" alt="Book Title 3">
+                <h3>Book Title 3</h3>
+                <p><strong>Author:</strong> Author Name 3</p>
+                <p><strong>Rating:</strong> ★★★☆☆</p>
+                <p>This is a brief description of Book Title 3. While the premise is intriguing, the execution falls a bit flat. However, it still offers some valuable insights and is worth a read for fans of the genre.</p>
+                <a href="#" class="hv-btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p class="review-text">
+                "Discover the world of books with us.<br> BookHub is your go-to destination for honest reviews, author
+                interviews,
+                and book recommendations."
+            </p>
+            <div class="icons">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+        </section>
+
+
+        <script>
+
+            var navLinks = document.grtElimentById("navLinks");
+    
+            function showMenu() {
+                navLinks.style.rigth = "0";
+            }
+    
+            function hideMenu() {
+                navLinks.style.rigth = "-200px";
+            }
+        </script>
+    
+</body>
+</html>

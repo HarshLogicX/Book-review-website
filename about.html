@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Book Review Blog</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="review.html">REVIEW</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-header">
+            <h1>About us</h1>
+            <p>
+                Your Trusted Guide to the World of Literature: Honest Reviews, Thoughtful Recommendations, and In-Depth Analysis
+            </p>
+            <a href="" class="harsh-btn">To know more visit to our website</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="about">
+            <h2>Welcome to Our Book Review Blog!</h2>
+            <p>At Book Review Blog, we are passionate about literature and the stories that shape our world. Our mission is to provide insightful reviews and recommendations for readers of all ages and interests.</p>
+            
+            <h3>Our Purpose</h3>
+            <p>We believe that reading is a journey that can transport you to different worlds, introduce you to new ideas, and inspire you in countless ways. Our blog aims to help you discover your next favorite book, whether it's a classic novel, a contemporary bestseller, or an indie gem.</p>
+            
+            <h3>Meet the Author</h3>
+            <p>Hi! I'm Harsh Vishwakarma, the creator of this blog. As an avid reader and book lover, I started this blog to share my thoughts and insights on the books that have impacted me the most. I hope to connect with fellow book enthusiasts and foster a community where we can share our love for reading.</p>
+            
+            <h3>Join Us!</h3>
+            <p>We invite you to explore our reviews, share your thoughts, and join the conversation. Whether you're looking for recommendations or want to discuss your favorite reads, we welcome you to our community of book lovers!</p>
+        </section>
+    </main>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p class="review-text">
+            "Discover the world of books with us.<br> BookHub is your go-to destination for honest reviews, author
+            interviews,
+            and book recommendations."
+        </p>
+        <div class="icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+    <script>
+
+        var navLinks = document.grtElimentById("navLinks");
+
+        function showMenu() {
+            navLinks.style.rigth = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.rigth = "-200px";
+        }
+    </script>
+
+</body>
+</html>
